@@ -1,0 +1,320 @@
+/* Global selectors */
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+h2 {
+  font-weight: 700;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+.header > .container-fluid {
+  padding: 3% 15% 0%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.light-section {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Icons */
+.icon {
+  margin-right: 0.3rem;
+}
+
+/* Navigation bar */
+.header {
+  background-color: #ff4c68;
+}
+.navbar-brand {
+  font-family: "Ubuntu", serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.navbar-brand:hover {
+  text-shadow: 0px 0px 3px #ddd;
+  transition: 0.3s;
+}
+.fa-fire {
+  margin-right: 0.5rem;
+}
+.nav-item {
+  margin: 0 1.125rem 0 1.125rem;
+}
+.nav-link {
+  font-size: 1.3rem;
+  font-weight: 300;
+  transition: 0.3s;
+}
+.nav-link:hover {
+  text-shadow: 0px 0px 5px #fff;
+  transition: 0.3s;
+}
+
+/* Hero section */
+.hero-section {
+  padding-bottom: 5%;
+  text-align: left;
+}
+.title {
+  font-size: 3.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.hero-image {
+  position: absolute;
+  z-index: 0;
+  transition: 0.5s;
+  width: 20%;
+  transform: rotate(25deg);
+  bottom: -100px;
+  right: 25%;
+}
+.hero-image:hover {
+  position: absolute;
+  z-index: 0;
+  width: 21.5%;
+  transform: rotate(18deg);
+  transition: 0.5s;
+  bottom: -100px;
+}
+
+/* Feature section */
+.features-section {
+  /* padding: 10rem 0 10rem 0; */
+  position: relative;
+  z-index: 1;
+}
+.feature-item {
+  padding: 5%;
+}
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+  transition: 1s;
+}
+.feature-icon:hover {
+  color: #ff4c68;
+  font-size: 5rem;
+  transition: 0.3s;
+}
+.feature-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.feature-descr {
+  color: #8f8f8f;
+}
+
+/* Review section  */
+.review-section {
+  background-color: #ef8172;
+}
+.review-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3em;
+  line-height: 1.5;
+}
+.review-pfp {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+.review-address {
+  display: inline;
+  font-style: italic;
+}
+.carousel-item {
+  transition: 1.2s;
+}
+
+/* Press section  */
+.press-section {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+.pricing-section {
+  padding: 100px 80px 100px;
+}
+.pricing-title-descr {
+  color: #8f8f8f;
+}
+.plan-card {
+  margin: 3% 2%;
+}
+.plan-price {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.sign-up-button {
+  width: 100%;
+}
+
+/* Download section  */
+.download-section-title {
+  padding: 0 10%;
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+.download-section-button {
+  margin: 1rem 0.5rem;
+}
+
+/* footer */
+.footer {
+  color: #8f8f8f;
+  position: relative;
+}
+.footer-links {
+  padding: 0;
+  list-style-type: none;
+}
+.footer-link {
+  color: #000;
+  font-size: 1.2rem;
+}
+.footer-item {
+  transition: 0.2s;
+  display: inline-block;
+  margin: 20px 10px;
+}
+.footer-item:hover {
+  transition: 0.2s;
+  margin: 20px 20px;
+}
+.footer-anchor-button {
+  color: #8f8f8f;
+  position: absolute;
+  right: 10%;
+  bottom: 50%;
+  font-size: 1.5rem;
+}
+.credits {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1700px) {
+  .hero-image {
+    bottom: 0px;
+  }
+  .hero-image:hover {
+    bottom: 0px;
+  }
+}
+@media (max-width: 1450px) {
+  .title {
+    font-size: 3rem;
+  }
+  .hero-image {
+    bottom: 100px;
+  }
+  .hero-image:hover {
+    bottom: 90px;
+  }
+}
+@media (max-width: 1300px) {
+  .title {
+    font-size: 2.8rem;
+  }
+  .hero-image {
+    bottom: 230px;
+    right: 200px;
+  }
+  .hero-image:hover {
+    bottom: 220px;
+  }
+}
+@media (max-width: 1000px) {
+  .title {
+    font-size: 3.5rem;
+  }
+  .hero-image {
+    bottom: 250px;
+    right: 200px;
+  }
+}
+@media (max-width: 991px) {
+  .title {
+    font-size: 3.5rem;
+  }
+  .hero-section {
+    text-align: center;
+  }
+  .hero-image {
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+  }
+  .hero-image:hover {
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+  }
+  .download-section-button {
+    margin: 0.2rem 0.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .hero-section {
+    text-align: center;
+  }
+  .hero-image {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .hero-image:hover {
+    width: 100%;
+  }
+  .title {
+    margin-top: 30px;
+    font-size: 2.2rem;
+    margin-bottom: 10%;
+  }
+  .download-button {
+    /* margin: 0% 1% 10% 0; */
+    margin: 0 0 4% 0;
+    width: 100%;
+  }
+  .review-pfp {
+    width: 15%;
+  }
+  .review-text {
+    font-size: 2rem;
+  }
+  .press-section {
+    padding-bottom: 5%;
+  }
+  .press-logo {
+    width: 20%;
+    margin: 10px 10px 20px;
+  }
+  .download-section-button {
+    width: 80%;
+    margin-bottom: 4%;
+  }
+  .download-section-title {
+    font-size: 2.5rem;
+  }
+}
